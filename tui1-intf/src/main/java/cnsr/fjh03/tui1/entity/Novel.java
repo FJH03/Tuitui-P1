@@ -50,6 +50,8 @@ public class Novel {
 
     private String cover;
 
+    private int lastCharpterId;
+
     private LocalDateTime lastCharpterTime;
 
     private String lastestCharpter;

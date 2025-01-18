@@ -15,6 +15,7 @@ create table tuitui_novel
     `subscribe_num`      int(11)    default 0,
     `book_url`           varchar(50)          not null,
     `cover`              varchar(100),
+    `last_charpter_id`   int(11),
     `last_charpter_time` datetime,
     `lastest_charpter`   varchar(50),
     `charpter_url`       varchar(50),

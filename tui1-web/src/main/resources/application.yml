@@ -37,3 +37,13 @@ spring:
       testOnReturn: false
       poolPreparedStatements: true
       maxOpenPreparedStatements: 20
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+      database: 0
+  cache:
+    redis:
+      time-to-live: 1800000
